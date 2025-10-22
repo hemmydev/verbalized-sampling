@@ -15,6 +15,7 @@
   <a href="https://arxiv.org/abs/2510.01171">Paper</a> | 
   <a href="https://simonucl.notion.site/verbalized-sampling">Blog</a> | 
   <a href="https://tinyurl.com/vs-gallery">Examples</a> | 
+  <a href="https://www.youtube.com/watch?v=VoBdywmdim0">Podcast</a> | 
   <a href="#citation">Citation</a>
 </p>
 
