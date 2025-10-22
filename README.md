@@ -14,7 +14,7 @@
   <a href="#reproducing-paper-results">Reproduce Results</a> | 
   <a href="https://arxiv.org/abs/2510.01171">Paper</a> | 
   <a href="https://simonucl.notion.site/verbalized-sampling">Blog</a> | 
-  <a href="https://tinyurl.com/vs-gallery">Gallery</a> | 
+  <a href="https://tinyurl.com/vs-gallery">Examples</a> | 
   <a href="#citation">Citation</a>
 </p>
 
