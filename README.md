@@ -23,22 +23,22 @@
 
 ## Quickstart
 
-To try Verbalized Sampling, just copy and paste this into any chatbot (ChatGPT, Claude, Gemini, etc.):
+To try Verbalized Sampling, just copy and paste this into any chatbot (ChatGPT, Claude, Gemini, etc.). For best results, we recommend starting with models like GPT-5, Claude 4 Opus, and Gemini 2.5 Pro:
 
 ```
 <instructions>
 Generate 5 responses to the user query, each within a separate <response> tag. Each <response> must include a <text> and a numeric <probability>.
-Randomly sample the responses from the full distribution.
+Please sample at random from the tails of the distribution, such that the probability of each response is less than 0.10.
 </instructions>
 
 Tell me a short story about a bear.
 ```
-For best results, we recommend starting with models like GPT-5, Claude 4 Opus, and Gemini 2.5 Pro.
 
-If you want more jokes, just respond and ask `Tell me 5 more stories` in the same conversation. For even better results, paste this into a `system prompt` instead:
+If you want more stories, just respond and ask `Tell me 5 more stories` in the same conversation. For even better results, paste this into a `system prompt` instead:
 
 ```
-You are a helpful assistant. For each query, please generate a set of five possible responses, each within a separate <response> tag. Responses should each include a <text> and a numeric <probability>. Please sample at random from the tails of the distribution, such that the probability of each response is less than 0.10.
+You are a helpful assistant. For each query, please generate a set of five possible responses, each within a separate <response> tag. Each <response> must include a <text> and a numeric <probability>.
+Please sample at random from the tails of the distribution, such that the probability of each response is less than 0.10.
 ```
 
 ## Installation and Usage
