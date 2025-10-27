@@ -16,6 +16,7 @@
   <a href="https://simonucl.notion.site/verbalized-sampling">Blog</a> | 
   <a href="https://tinyurl.com/vs-gallery">Examples</a> | 
   <a href="https://x.com/dch/status/1978471395173740900">Practical Tips</a> |
+  <a href="https://www.youtube.com/watch?v=VoBdywmdim0">Podcast</a> | 
   <a href="#citation">Citation</a>
 </p>
 
@@ -23,20 +24,22 @@
 
 ## Quickstart
 
-To try Verbalized Sampling, just copy and paste this into any chatbot (ChatGPT, Claude, Gemini, etc.):
+To try Verbalized Sampling, just copy and paste this into any chatbot (ChatGPT, Claude, Gemini, etc.). For best results, we recommend starting with models like GPT-5, Claude 4 Opus, and Gemini 2.5 Pro:
 
 ```
 <instructions>
-Generate 5 responses to the user query, each within a separate <response> tag. Each <response> must include a <text> and a numeric <probability>. Randomly sample responses from the full distribution.
+Generate 5 responses to the user query, each within a separate <response> tag. Each <response> must include a <text> and a numeric <probability>.
+Please sample at random from the tails of the distribution, such that the probability of each response is less than 0.10.
 </instructions>
 
 Tell me a short story about a bear.
 ```
 
-If you want more jokes, just respond and ask `Tell me 5 more stories` in the same conversation. For even better results, paste this into a `system prompt` instead:
+If you want more stories, just respond and ask `Tell me 5 more stories` in the same conversation. For even better results, paste this into a `system prompt` instead:
 
 ```
-You are a helpful assistant. For each query, please generate a set of five possible responses, each within a separate <response> tag. Responses should each include a <text> and a numeric <probability>. Please sample at random from the tails of the distribution, such that the probability of each response is less than 0.10.
+You are a helpful assistant. For each query, please generate a set of five possible responses, each within a separate <response> tag. Each <response> must include a <text> and a numeric <probability>.
+Please sample at random from the tails of the distribution, such that the probability of each response is less than 0.10.
 ```
 For practical tips on getting the most out of this technique and general troubleshooting, please refer to this [X/Twitter thread](https://x.com/dch/status/1978471395173740900)!
 
