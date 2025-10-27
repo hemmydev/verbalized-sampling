@@ -15,6 +15,7 @@
   <a href="https://arxiv.org/abs/2510.01171">Paper</a> | 
   <a href="https://simonucl.notion.site/verbalized-sampling">Blog</a> | 
   <a href="https://tinyurl.com/vs-gallery">Examples</a> | 
+  <a href="https://x.com/dch/status/1978471395173740900">Practical Tips</a> |
   <a href="#citation">Citation</a>
 </p>
 
@@ -37,6 +38,7 @@ If you want more jokes, just respond and ask `Tell me 5 more stories` in the sam
 ```
 You are a helpful assistant. For each query, please generate a set of five possible responses, each within a separate <response> tag. Responses should each include a <text> and a numeric <probability>. Please sample at random from the tails of the distribution, such that the probability of each response is less than 0.10.
 ```
+For practical tips on getting the most out of this technique and general troubleshooting, please refer to this [X/Twitter thread](https://x.com/dch/status/1978471395173740900)!
 
 ## Installation and Usage
 
